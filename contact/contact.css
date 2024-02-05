@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    color: rgb(26, 230, 219);
+    padding-bottom: 30px;
+
+}
+
+.title{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* the starting of navigation bar */
+nav{
+ text-align: center;
+ background-color: rgb(78, 68, 68);
+ padding-bottom: 20px;
+}
+
+.nav-bar{
+    display: inline-flex;
+    
+}
+
+.nav-bar li {
+    padding-top: 40px;
+    list-style: none;
+    
+}
+
+.nav-bar li a{
+    margin-right: 100px;
+    font-size: 25px;
+    color: #04cec4;
+    text-decoration: none;
+    transition: 0.30s;
+    opacity: 0.40s;
+}
+
+.nav-bar li a:hover{
+    font-size: 30px;
+    color: rgb(6, 64, 189);
+}
+/* the end of the navigation bar */
+
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
